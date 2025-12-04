@@ -53,6 +53,4 @@ A clean and lightweight Chrome Extension (Manifest V3) that lets you **bookmark 
 
 ---
 
-## 📁 Folder Structure
-
 

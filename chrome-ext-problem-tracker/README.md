@@ -18,11 +18,12 @@ A clean and lightweight Chrome Extension (Manifest V3) that lets you **bookmark 
 
 ## 📸 Screenshots
 
-| LeetCode Page UI | Popup Menu |
-|------------------|------------|
+| LeetCode Page UI | 
+|------------------|
 | <img width="1909" height="982" alt="image" src="https://github.com/user-attachments/assets/1ee831d8-81e9-41d1-8867-f2c2bb014e69" />
+|Popup Menu |
+|-----------|
 | <img width="1905" height="974" alt="image" src="https://github.com/user-attachments/assets/0bf20dc1-2265-4528-9f64-efa1a34f1e35" />
-|
 
 ---
 

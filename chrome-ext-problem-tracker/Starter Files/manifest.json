@@ -1,0 +1,37 @@
+
+{
+  "manifest_version": 3,
+  "name": "Problem Tracker Extension",
+  "version": "0.1",
+  "author": "Sherwin J Clitus",
+  "description": "A Chrome Extension to track and manage problems effectively.",
+  "permissions": ["storage", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/bookmark.png",
+        "assets/delete.png",
+        "assets/play.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Problem Tracker Extension",
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+body {
+  width: 260px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+#problem-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.problem-item {
+  background: #f6f6f6;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.problem-item a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
